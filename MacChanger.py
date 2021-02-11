@@ -5,8 +5,8 @@ import re
 
 def get_user_input():
     parseObject = optparse.OptionParser()
-    parseObject.add_option("-i", "--interface", dest="interface", help="interface to change!!!")
-    parseObject.add_option("-m", "--mac", dest="macAddress", help="new mac address")
+    parseObject.add_option("-i", "--interface", dest="interface", help="Choose your interface to change!!!")
+    parseObject.add_option("-m", "--mac", dest="macAddress", help="Write your new mac address")
     return parseObject.parse_args()
 
 
